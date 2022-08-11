@@ -11,7 +11,7 @@ int main()
     cout << "enter the value x";
     cin >> x;
 
-    y = 7 * x / 2 * x + 4 * (pow(x, 3) + 4);
+    y = (7 * x) /( 2 * x + 4 * (pow(x, 3) + 4));
 
     cout << " the result is " << y << endl;
     return 0;
